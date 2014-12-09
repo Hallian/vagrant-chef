@@ -1,0 +1,7 @@
+{
+    "ghost": {
+        "url": "http://ghost.local"
+    },
+
+    "run_list": ["recipe[avahi::default]", "role[ghost]"]
+}

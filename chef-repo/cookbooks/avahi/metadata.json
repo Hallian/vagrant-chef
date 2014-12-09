@@ -1,0 +1,40 @@
+{
+  "name": "avahi",
+  "description": "Installs/Configures avahi",
+  "long_description": "[![Build Status](https://secure.travis-ci.org/pwelch/chef-avahi.png)](http://travis-ci.org/pwelch/chef-avahi)\n[![Dependency Status](https://gemnasium.com/pwelch/chef-avahi.png)](https://gemnasium.com/pwelch/chef-avahi)\n\n## Description\nChef cookbook that installs and configures [avahi](http://avahi.org/) the zeroconf software.\n\n## Usage\nInclude `avahi::default` recipe in the `run_list`.\n\nTo disable the avahi-daemon set the attribute like so:\n```\n  default['avahi']['disable_service'] = true\n```\n\n## Development\nDevelopment requires [Vagrant](http://vagrantup.com/) and these vagrant-plugins:\n* `vagrant plugin install vagrant-berkshelf`\n* `vagrant plugin install vagrant-omnibus`\n\n## Testing\nRunning tests:\n```bash\nbundle exec strainer test\n```\n\n## Contributing\n1. Fork it\n2. Create your feature branch (`git checkout -b my-new-feature`)\n3. Commit your changes (`git commit -am 'Add some feature'`)\n4. Push to the branch (`git push origin my-new-feature`)\n5. Create new Pull Request\n\nSource code availabe [here](https://github.com/pwelch/chef-avahi)\n\n## To Do\n* Ensure support on other platforms (RHEL/Arch).\n",
+  "maintainer": "Paul Welch",
+  "maintainer_email": "paul@pwelch.net",
+  "license": "Apache 2.0",
+  "platforms": {
+    "ubuntu": ">= 0.0.0",
+    "debian": ">= 0.0.0"
+  },
+  "dependencies": {
+
+  },
+  "recommendations": {
+
+  },
+  "suggestions": {
+
+  },
+  "conflicting": {
+
+  },
+  "providing": {
+
+  },
+  "replacing": {
+
+  },
+  "attributes": {
+
+  },
+  "groupings": {
+
+  },
+  "recipes": {
+    "avahi::default": "Installs and configures avahi-daemon"
+  },
+  "version": "1.0.2"
+}
