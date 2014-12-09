@@ -9,9 +9,13 @@
                 "repo": "https://github.com/cnunciato/ghost-content.git",
                 "revision": "master"
             }
+        },
+        "nodejs": {
+            "packages": ["nodejs"]
         }
     },
     "run_list": [
+        "recipe[nodejs]",
         "recipe[ghost]",
         "recipe[ghost::nginx]"
     ]

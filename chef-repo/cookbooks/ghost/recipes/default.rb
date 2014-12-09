@@ -20,7 +20,7 @@
 include_recipe 'apt'
 include_recipe 'build-essential'
 include_recipe 'git'
-include_recipe 'nodejs::install_from_binary'
+# include_recipe 'nodejs::install_from_binary'
 include_recipe 'sqlite'
 include_recipe 'runit'
 include_recipe 'chef-vault'

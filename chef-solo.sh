@@ -15,3 +15,4 @@ rsync -avz /vagrant/solo.rb /etc/chef/solo.rb
 
 # Run Chef solo provisioner
 chef-solo -j /vagrant/node.json
+# cat /var/chef/chef-stacktrace.out
